@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: #ffc600;
+  background: red;
   font-family: 'helvetica neue';
   font-size: 20px;
   font-weight: 200;
@@ -65,7 +65,7 @@ input.search {
   background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
 }
 
-span.population {
+span.results {
   font-size: 15px;
 }
 

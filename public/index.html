@@ -4,14 +4,14 @@
     <!-- <meta name="viewport" content="width=, initial-scale=1.0"> -->
     <link rel="stylesheet" href="style.css">
     <!-- <script src="app.js"></script> -->
-    <title>Document</title>
+    <title>Collab: Arinze & ?</title>
 </head>
 <body>
 
 	<form class="search-form">
 	    <input type="text" class="search" placeholder="Zip Code">
 	    <ul class="suggestions">
-	      <li>Filter for a zip code in Prince George's County, MD.</li>
+	      <li>Enter a zip code in Prince George's County, MD.</li>
 	    </ul>
   	</form>
 <script>
@@ -34,7 +34,7 @@ function displayMatches() {
 	// console.log(this.value)
   	const matchArray = findMatches(this.value, zips);
   	const html = matchArray.map(restr => {
-  		return `<li><span class="population">${restr.name}</span><span class="name">${restr.zip}</span></li>`;
+  		return `<li><span class="name">${restr.name}</span><span class="result">${restr.inspection_results}</span></li>`;
   	}).join('')
   	suggestions.innerHTML = html;
   	
