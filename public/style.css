@@ -67,6 +67,14 @@ input.search {
 
 span.results {
   font-size: 15px;
+  position: center;
+}
+
+span {
+  padding-right: 1px;
+  padding-left: 1px;
+  padding-bottom: 1px;
+  margin-right: 1px;
 }
 
 .hl {

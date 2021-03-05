@@ -34,7 +34,7 @@ function displayMatches() {
 	// console.log(this.value)
   	const matchArray = findMatches(this.value, zips);
   	const html = matchArray.map(restr => {
-  		return `<li><span class="name">${restr.name}</span><span class="result">${restr.inspection_results}</span></li>`;
+  		return `<li><span class="name">${restr.name}</span><span class="add">${restr.address_line_1}</span><span class="result">${restr.category}</span></li>`;
   	}).join('')
   	suggestions.innerHTML = html;
   	
