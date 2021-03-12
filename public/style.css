@@ -16,6 +16,8 @@ input {
   padding: 20px;
 }
 
+#mapid { height: 180px; }
+
 .search-form {
   max-width: 400px;
   margin: 50px auto;
